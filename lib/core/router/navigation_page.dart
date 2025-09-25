@@ -24,6 +24,8 @@ class NavigationPage extends StatelessWidget {
               title: "Painting",
               onPressed: () => context.router.push(PaintingWidetsRoute()),
             ),
+            const SizedBox(height: 12),
+            RouteButton(title: "Scrolling", onPressed: () {}),
           ],
         ),
       ),
