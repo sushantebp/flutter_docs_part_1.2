@@ -25,3 +25,19 @@ class NavigationRoute extends PageRouteInfo<void> {
     },
   );
 }
+
+/// generated route for
+/// [PaintingWidetsPage]
+class PaintingWidetsRoute extends PageRouteInfo<void> {
+  const PaintingWidetsRoute({List<PageRouteInfo>? children})
+    : super(PaintingWidetsRoute.name, initialChildren: children);
+
+  static const String name = 'PaintingWidetsRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const PaintingWidetsPage();
+    },
+  );
+}
