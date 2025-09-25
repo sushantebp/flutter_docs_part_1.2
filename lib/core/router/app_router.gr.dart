@@ -41,3 +41,19 @@ class PaintingWidetsRoute extends PageRouteInfo<void> {
     },
   );
 }
+
+/// generated route for
+/// [ScrollingWidgetsPage]
+class ScrollingWidgetsRoute extends PageRouteInfo<void> {
+  const ScrollingWidgetsRoute({List<PageRouteInfo>? children})
+    : super(ScrollingWidgetsRoute.name, initialChildren: children);
+
+  static const String name = 'ScrollingWidgetsRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const ScrollingWidgetsPage();
+    },
+  );
+}
