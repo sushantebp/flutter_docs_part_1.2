@@ -9,3 +9,7 @@
  
 ## September 26 , 2025
 - Topic learned: Scrolling
+
+- Topic learned: Basic Animation
+   - Hero widget,
+   - Explict Animation in flutter
