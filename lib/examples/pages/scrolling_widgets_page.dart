@@ -107,7 +107,7 @@ class CarouselSection extends StatelessWidget {
         children: List.generate(
           10,
           (index) => FadeInImage.assetNetwork(
-            placeholder: AppConstants.placeHolder,
+            placeholder: AppImages.placeHolder,
             image: "${AppConstants.imageEndpoint}/${200 + index}",
             fit: BoxFit.cover,
           ),
